@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<!-- 
+    Nicole Whittney Akeyo's Portfolio
+-->
+<html lang="en">
+    <head>
+        <!-- 
+            META TAGS SECTION:
+            - Character encoding declaration
+            - Author information
+            - Responsive viewport settings
+            - SEO description
+            - Robots directive for search engines
+        -->
+        <meta charset="UTF-8">
+        <meta name="author" content="Nicole Whittney Akeyo">
+        <meta name="viewport" content="width=device_width, initial scale=1">
+        <meta name="description" content="Early-stage web and mobile developer. Building my foundation with code. Excited to see where this journey takes me. Join me as I learn and grow">
+        <meta name="robots" content="index, follow">
+        
+        <!-- External CSS stylesheet link -->
+        <link rel="stylesheet" href="portfolio.css">
+        
+        <!-- Page title that appears in browser tab -->
+        <title>Nicole's Personal Portfolio Website</title>
+    </head>
+    
+    <body>
+        <!-- 
+            HEADER SECTION:
+            - Contains primary navigation menu
+            - Uses anchor links for single-page navigation
+        -->
+        <header>
+            <nav>
+                <a href="#about">About me</a>
+                <a href="#education">Education Background</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        
+        <!-- 
+            MAIN CONTENT SECTION:
+            - Contains all primary content sections
+            - Each section has a unique ID for navigation
+            - Sections use semantic class names for styling
+        -->
+        <main>
+            <!-- 
+                HOMEPAGE SECTION:
+                - Hero/landing section with profile image and introductory text
+                - Uses a flexbox-like structure with content and image containers
+            -->
+            <section id="Homepage" class="homepage-section">
+               <div class="content">
+                    <!-- Profile image container -->
+                    <div class="image-container">
+                        <img src="IMAGES/IMG_20240821_092712_638.jpg">
+                    </div>
+                    <!-- Introductory text container -->
+                    <div class="text-container">
+                        <p>Nicole Whittney</p>
+                        <p>Web Designer</p>
+                        <p>Mobile App Developer</p>
+                    </div>
+               </div> 
+            </section>
+            
+            <!-- 
+                ABOUT SECTION:
+                - Personal introduction and background
+                - Contains a two-column layout (image and text)
+                - Includes CV download button
+            -->
+            <section id="about" class="about-section">
+                <div class="about-split">
+                    <!-- Image column (currently empty, styled via CSS) -->
+                    <div class="image-column">
+                    </div>
+                    <!-- Text content column -->
+                    <div class="about-content">
+                        <h2>ABOUT ME</h2>
+                        <p>Hi! I'm Nicole Whittney, I'm an IT student and and intermediate web developer/designer with a passion for crafting clean, responsive websites .As an aspiring mobile app developer, I'm ready to bring ideas to life across platforms.
+                        I specialize in HTML, CSS, JavaScript, and React.js, and I'm currently exploring Flutter to dive deeper into mobile development. While I'm just beginning my journey of building fully functional websites and apps, I thrive on turning small projects into stepping stones for growth.
+                        When I'm not coding, you'll find me singing, dancing, or chasing inspiration in everyday creativity. Let's connect and build something amazing together!</p>
+                        <!-- CV download button with icon -->
+                        <div class="cv-download-wrapper">
+                            <a href="CURRICULUM VITAE/nicoleCV_044553.docx" download="CURRICULUM VITAE/nicoleCV_044553.docx" class="download-btn">
+                                <span class="download-icon">📄</span>
+                                Download My CV
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- 
+                EDUCATION SECTION:
+                - Academic background and qualifications
+                - Uses a two-column layout with image and content
+                - Structured with semantic HTML for each education level
+            -->
+            <section id="education" class="education-section">
+                <div class="education-split">
+                    <!-- Education-related image -->
+                    <div class="image-column">
+                        <img src="IMAGES/BOOKS.jpg">
+                    </div>
+                    <!-- Education content with the timelines -->
+                    <div class="education-content">
+                        <h2>EDUCATION BACKGROUND AND EXPERIENCE</h2>
+                        <div class="education-item">
+                            <!-- University education -->
+                            <div class="degree">Bachelor of Science in Information Technology</div>
+                            <div class="institution">🎓 Multimedia University Of Kenya | 2022 - Present</div>
+                            <div class="location">📍 Nairobi, Kenya</div>
+                            <ul>
+                                <li>Core coursework: Web Development, Database Systems, Network Administration and management, Operating Systems, Software Engineering and Programming. </li>
+                                <li>Academic assignments: Built responsive web interfaces (HTML/CSS), basic JavaScript applications</li>
+                                <li>Currently expanding skills through self-directed learning</li>
+                            </ul>
+
+                            <!-- Professional training -->
+                            <div class="degree">Software Development Program</div>
+                            <div class="institution">🎓 Power Learn Project Academy | 2025 - Present</div>
+                            <div class="location">📍 Nairobi, Kenya</div>
+                            
+                            <!-- Secondary education -->
+                            <div class="highschoolcertificate">Secondary School Certificate</div>
+                            <div class="institution">🏫 Kisumu Girls' High School | Graduated: 2022</div>
+                            <div class="location">📍 Kisumu, Kenya</div>
+
+                            <!-- Primary education -->
+                            <div class="primaryschoolcertificate">Primary School Certificate</div>
+                            <div class="institution">🏫 Donholm Primary School | Graduated: 2017</div>
+                            <div class="location">📍 Nairobi, Kenya</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- 
+                SKILLS SECTION:
+                - Technical skills displayed in a grid layout
+                - Each skill has an icon, title, and bullet points
+                - Organized into four main categories
+            -->
+            <section id="skills" class="skills-section">
+                <div class="skills-split">
+                    <!-- Skills-related image -->
+                    <div class="image-column">
+                        <img src="IMAGES/CODING PIC.jpg">
+                    </div>
+                    <div class="skills-content">
+                        <h2>SKILLS</h2>
+                        <!-- Skill Boxes Grid -->
+                        <div class="skills-grid">
+                            <!-- Box 1: Web Design -->
+                            <div class="skills-box">
+                                <div class="skills-icon">💻</div>
+                                <h3>Web Design</h3>
+                                <ul>
+                                    <li>Proficient in HTML/CSS/JavaScript</li>
+                                    <li>Responsive design principles</li>
+                                    <li>React.js fundamentals</li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Box 2: IT Support -->
+                            <div class="skills-box">
+                                <div class="skills-icon">🛠️</div>
+                                <h3>IT Support</h3>
+                                <ul>
+                                    <li>Hardware setup (projectors, workstations)</li>
+                                    <li>Software configuration (Outlook, BitDefender)</li>
+                                    <li>Network troubleshooting (routers, switches)</li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Box 3: Mobile Dev -->
+                            <div class="skills-box">
+                                <div class="skills-icon">📱</div>
+                                <h3>Mobile Development</h3>
+                                <ul>
+                                    <li>Learning Flutter framework</li>
+                                    <li>Building small cross-platform apps</li>
+                                    <li>UI/UX best practices</li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Box 4: Python -->
+                            <div class="skills-box">
+                                <div class="skills-icon">🐍</div>
+                                <h3>Python</h3>
+                                <ul>
+                                    <li>Intermediate level</li>
+                                    <li>OOP & API development</li>
+                                    <li>Exploring Django</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </section>
+            
+            <!-- 
+                PROJECTS SECTION:
+                - Showcases portfolio projects
+                - Each project has a card with description and skills used
+                - Currently features two projects
+            -->
+            <section id="projects" class="projects-section">
+                <div class="projects-split">
+                <div class="projects-content">
+                        <h2>MY LEARNING PROJECTS</h2>
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <h3>Responsive Web Design</h3>
+                        <div class="project-details">
+                            <p class="project-description">
+                            Created responsive layouts using HTML/CSS for PLP assignments.
+                            Demonstrated mobile-first principles and flexbox/grid techniques.
+                            </p>
+                            <ul class="project-skills">
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>Responsive Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <h3>Portfolio Development</h3>
+                        <div class="project-details">
+                            <p class="project-description">
+                            Currently building this portfolio to showcase my growing skills 
+                            in web development and design.
+                            </p>
+                            <ul class="project-skills">
+                                <li>UI/UX Design</li>
+                                <li>CSS Animations</li>
+                                <li>Git Version Control</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+            
+            <!-- 
+                CONTACT SECTION:
+                - Contact information and contact form
+                - Split into two columns (info and form)
+                - Includes social media links
+            -->
+            <section id="contact" class="contact-section">
+                <div class="contact-split">
+                    <!-- Image column (currently empty, styled via CSS) -->
+                    <div class="image-column">
+                    </div>
+                    <!-- Contact content area -->
+                    <div class="contact-content">
+                        <!-- Left side: Contact information -->
+                        <div class="contact-to-the-leftside">
+                            <h2>CONTACT ME:</h2>
+                            <P>Personal number: +254714730894</P>
+                            <p>Email:<a href="mailto:nicolewhittney3@gmail.com">nicolewhittney3@gmail.com</a></p>
+                            <div class="social media icons">
+                                <a href="https://github.com/Ake-yo002" target="blank"> MyGithub.com</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Right side: Contact form -->
+                        <div class="contact-to-the-rightside">
+                            <!-- 
+                                CONTACT FORM:
+                                - Simple form with name, email, and message fields
+                                - Uses POST method (action attribute to be added)
+                                - All fields are required
+                            -->
+                            <form method="" post="action">
+                            <input type="text" name="Name" placeholder="Enter your name" required>
+                            <input type="email" name="Email" id="email" placeholder="Your Email" required>
+                            <textarea name="Thoughts" rows="8" placeholder="Tell me your thoughts."></textarea>
+                            <button type="submit"> Submit </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
