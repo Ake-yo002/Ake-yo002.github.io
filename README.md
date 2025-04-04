@@ -1,4 +1,5 @@
 Nicole's Developer Portfolio
+
 **LIVE SITE DEMO:https://ake-yo002-github-io.vercel.app/**
 
 ✨ A clean, responsive portfolio showcasing my frontend skills
@@ -17,7 +18,7 @@ I've paid special attention to:
 ✔️ Performance optimization (efficient CSS, proper image handling)
 ✔️ Maintainable code structure (logical organization, clear comments)
 
-🛠 Technical Highlights
+**🛠 Technical Highlights**
 
 HTML Features
 
@@ -29,7 +30,7 @@ Organized project cards with clean markup
 
 Responsive meta tags for proper mobile rendering
 
-CSS Techniques
+**CSS Techniques**
 
 /* Example of my CSS approach */
 
@@ -46,8 +47,8 @@ CSS Techniques
   }
 }
 
-🌟 Key Components
-Hero Section
+**🌟 Key Components
+Hero Section**
 
 Clean presentation of my professional identity
 
@@ -71,14 +72,14 @@ Accessible input fields
 
 Visual feedback on interactions
 
-📱 Responsive Behavior
+**📱 Responsive Behavior**
 Desktop: Elegant split-screen layouts (50/50 columns)
 
 Tablet: Adjusted spacing and typography
 
 Mobile: Optimized stacked layout with touch-friendly elements
 
-🏗 Project Structure
+**🏗 Project Structure**
 
 index.html          # Main portfolio page  
 portfolio.css       # All styling (well-commented)  
