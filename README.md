@@ -21,7 +21,7 @@ I've paid special attention to:
 
 HTML Features
 
-Semantic sectioning (<section>, <article>, <nav>)
+Semantic sectioning
 
 Accessible form elements with proper labels
 
